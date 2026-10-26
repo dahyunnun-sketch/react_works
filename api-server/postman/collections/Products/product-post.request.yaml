@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:8000/api/products
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"productName\": \"헤드셋\",\r
+
+    \    \"price\": 600000,\r
+
+    \    \"description\": \"블루투스 헤드셋 입니다.\"\r
+
+    }"
+order: 2000

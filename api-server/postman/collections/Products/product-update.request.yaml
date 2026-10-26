@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:8000/api/products/3
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"productName\": \"블루투스 이어폰\",\r
+
+    \    \"price\": \"50000\",\r
+
+    \    \"description\": \"블루투스 유선 이어폰 입니다.\"\r
+
+    }"
+order: 5000
