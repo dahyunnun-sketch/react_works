@@ -5,6 +5,8 @@ import InputFocus from './components/InputFocus'
 import UseRefEx from './components/UseRefEx'
 import BankReducer from './hooks/BankReducer'
 import CountReducer from './hooks/CountReducer'
+import Blocks from './styling/Blocks'
+import ButtonSample from './styling/ButtonSample'
 import UserParent from './use_context/UserParent'
 
 // 내보내기 할 때 default가 없는 경우 - 중괄호로 묶는다 ??
@@ -21,7 +23,9 @@ function App() {
       {/* <CountReducer /> */}
       {/* <BankReducer /> */}
       {/* <UserParent /> */}
-      <CounterReducer />
+      {/* <CounterReducer /> */}
+      {/* <ButtonSample /> */}
+      <Blocks />
       </section>
 
     </>
